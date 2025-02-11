@@ -79,7 +79,8 @@ public class AnimateHeart : MonoBehaviour
             // Color Update over time
             Renderer sphereRenderer = spheres[i].GetComponent<Renderer>();
             float hue = (float)i / numSphere; // Hue cycles through 0 to 1
-            Color color = Color.HSVToRGB(Mathf.Abs(hue * - Mathf.Sin(time)), - Mathf.Cos(time), 2f - Mathf.Cos(time)); // Full saturation and brightness
+            //Color color = Color.HSVToRGB(Mathf.Abs(hue * - Mathf.Sin(time)), - Mathf.Cos(time), 2f - Mathf.Cos(time)); // Full saturation and brightness
+            Color color = Color.HSVToRGB(hue, 1f, 1f);
             sphereRenderer.material.color = color;
         }
     }
