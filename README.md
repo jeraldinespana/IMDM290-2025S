@@ -4,5 +4,7 @@ IMDM 290
 
 2025 Spring
 
-Course Material 
-![Untitled video - Made with Clipchamp (8)](https://github.com/user-attachments/assets/f862236a-a226-4e8f-8bfd-47c7161032da)
+For this assignment I chose ot focus on planes instead of spheres! Playing around with their rotations allows me to make this cool heart graphic.
+
+![Heart Assignment2](https://github.com/user-attachments/assets/69ece85a-7fd2-4faf-86b0-5bb457efa0f7)
+
